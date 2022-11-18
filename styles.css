@@ -5,6 +5,8 @@ body {
 }
 h1 {
   font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
 }
 h2 {
   font-size: 30px;
@@ -25,6 +27,13 @@ p {
   padding: 20px;
   max-width: 500px;
 }
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -25px;
+  margin-bottom: -25px;
+}
 hr {
   height: 2px;
   background-color: brown;
@@ -44,28 +53,34 @@ h2 {
   margin-bottom: 5px;
   font-size: 18px;
 }
-.flavor,
+.flavor {
+  text-align: left;
+  width: 75%;
+}
 .dessert {
   text-align: left;
   width: 75%;
 }
-.price {
+.price .dessert {
   text-align: right;
   width: 25%;
 }
-/*FOOTER*/
+
 footer {
   font-size: 14px;
+}
+.address {
+  margin-bottom: 5px;
 }
 a {
   color: black;
 }
 a:visited {
-  color: grey;
+  color: black;
 }
 a:hover {
   color: brown;
 }
 a:active {
-  color: white;
+  color: brown;
 }
